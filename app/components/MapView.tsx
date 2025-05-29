@@ -94,7 +94,25 @@ const TravelMap = () => {
 
 			{/* Map Placeholder */}
 			<div className="relative bg-white dark:bg-gray-700 rounded-xl shadow-inner border-2 border-gray-200 dark:border-gray-600 h-96 mb-6">
-				<MapWithNoSSR />
+				<MapWithNoSSR
+					points={[
+						[47.2226, 39.7186],
+						[47.2689, 39.3347],
+						[47.5397, 40.6564],
+						[51.1439, 41.7214],
+						[51.6586, 39.2028],
+						[51.9147, 39.3458],
+						[52.6058, 38.9269],
+						[52.6111, 39.5997],
+						[52.6175, 38.5014],
+						[52.9686, 36.0714],
+						[53.0242, 36.0425],
+						[53.2667, 35.3],
+						[54.0754, 37.5243],
+						[54.1935, 37.6187],
+						[54.1962, 37.6184],
+					]}
+				/>
 
 				{/* Route Points Overlay */}
 				<div className="absolute top-4 left-4 space-y-2">
