@@ -4,9 +4,10 @@ import "leaflet/dist/leaflet.css";
 const Map = () => {
 	return (
 		<MapContainer
-			center={[51.505, -0.09]} // Лондон (пример)
-			style={{ height: "100%", width: "100%" }}
-			className="w-full h-full overflow-hidden"
+			center={[55.64, 37.5]} // Москва
+			zoom={9}
+			// style={{ height: "100%", width: "100%" }}
+			className="w-full h-full overflow-hidden z-10"
 		>
 			<TileLayer
 				url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
